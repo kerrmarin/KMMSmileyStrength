@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url    = "http://twitter.com/kerrmarin"
   s.platform     		= :ios, "8.0"
 
-  s.source       		= { :git => "http://EXAMPLE/KMMSmileyStrength.git", 
+  s.source       		= { :git => "https://github.com/kerrmarin/KMMSmileyStrength.git", 
   					 		:tag => "1.0" }
 
   s.source_files  = "KMMPasswordStrength/KMMPasswordStrengthView/*.{h,m}"
