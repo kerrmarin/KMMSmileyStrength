@@ -1,0 +1,2 @@
+KMMSmileyStrength
+=================
