@@ -24,12 +24,20 @@
     //Create the password strength view
     CGRect frame = CGRectMake(0, 0, CGRectGetHeight(self.passwordTextField.frame), CGRectGetHeight(self.passwordTextField.frame));
     self.smileyStrength = [[KMMSmileyStrength alloc] initWithFrame:frame];
+    //Set a custom colour and text size
+    self.smileyStrength.textColour = [UIColor blueColor];
+    self.smileyStrength.textSize = 30.f;
+    
     //Set it as the text field's right view
     self.passwordTextField.rightView = self.smileyStrength;
     self.passwordTextField.rightViewMode = UITextFieldViewModeNever;
 }
 
-
+/**
+ *  Called when the text field's editing changed
+ *
+ *  @param sender the UITextField for the password
+ */
 -(IBAction)textDidChange:(id)sender {
     UITextField *textfield = sender;
     if(textfield.text.length > 0) {
