@@ -3,16 +3,19 @@ KMMSmileyStrength
 
 ## Preview
 
-A password strength view that uses smiley faces to depict the strength of a password. It also allows you to:
+![KMMSmileyStrength Screenshot](https://raw.githubusercontent.com/kerrmarin/KMMSmileyStrength/master/screenshots/strongpw.jpg)
+![KMMSmileyStrength Screenshot](https://raw.githubusercontent.com/kerrmarin/KMMSmileyStrength/master/screenshots/weakpw.jpg)
 
 ## Features
+
+A password strength view that uses smiley faces to depict the strength of a password.
 
 * Set a custom font colour for the smiley faces, so that you can style it according to your app.
 * Set a custom font size
 
 ## Installation
 
-### Cocoapods(Recommended)
+### Cocoapods (Recommended)
 
 1. Add `pod 'KMMSmileyStrength` to your Podfile.
 2. Run `pod install`
