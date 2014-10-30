@@ -3,7 +3,12 @@ KMMSmileyStrength
 
 ## Preview
 
+A password strength view that uses smiley faces to depict the strength of a password. It also allows you to:
+
 ## Features
+
+* Set a custom font colour for the smiley faces, so that you can style it according to your app.
+* Set a custom font size
 
 ## Installation
 
@@ -11,9 +16,6 @@ KMMSmileyStrength
 
 1. Add `pod 'KMMSmileyStrength` to your Podfile.
 2. Run `pod install`
-
-### Manual
-
 
 ## Requirements
 
@@ -72,6 +74,8 @@ You can also edit the text colour and text size of the KMMSmileySrength:
 ## Credits
 
 KMMSmileyStrength was created by Kerr Marin Miller (@kerrmarin) in the development of Dejavu (www.dejavu-app.com)
+
+Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
 
 ## License
 
