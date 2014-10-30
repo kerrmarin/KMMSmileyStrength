@@ -80,7 +80,7 @@ You can also edit the text colour and text size of the KMMSmileySrength:
 
 KMMSmileyStrength was created by Kerr Marin Miller (@kerrmarin) in the development of Dejavu (www.dejavu-app.com)
 
-Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
+Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/legalcode)
 
 ## License
 
