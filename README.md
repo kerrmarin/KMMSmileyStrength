@@ -20,6 +20,8 @@ A password strength view that uses smiley faces to depict the strength of a pass
 1. Add `pod 'KMMSmileyStrength` to your Podfile.
 2. Run `pod install`
 
+Then add `flaticon.ttf` to the project's info.plist under `Fonts provided by application` 
+
 ## Requirements
 
 - iOS 5.0 and greater
