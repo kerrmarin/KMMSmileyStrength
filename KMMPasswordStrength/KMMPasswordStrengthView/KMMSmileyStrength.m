@@ -41,7 +41,7 @@
  */
 -(void)setup {
     self.zxcvbn = [[DBZxcvbn alloc] init];
-    self.textLabel = [[UILabel alloc] initWithFrame:self.frame];
+    self.textLabel = [[UILabel alloc] initWithFrame:self.bounds];
     
     //Set default values for font, size and text colour
     self.textLabel.font = [UIFont kmm_flatIconFont];
