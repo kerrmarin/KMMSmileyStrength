@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         		= "KMMSmileyStrength"
-  s.version      		= "1.0"
+  s.version      		= "1.0.1"
   s.summary      		= "A password strength display using smiley faces."
   s.description  		= 'A password strength display that uses zxcvbn and custom fonts to display smiley faces that represent the strength of a password.'
   s.homepage     		= "https://github.com/kerrmarin/KMMSmileyStrength"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     		= :ios, "8.0"
 
   s.source       		= { :git => "https://github.com/kerrmarin/KMMSmileyStrength.git", 
-  					 		:tag => "1.0" }
+  					 		:tag => "1.0.1" }
 
   s.source_files  = "KMMPasswordStrength/KMMPasswordStrengthView/*.{h,m}"
   s.resource  = "KMMPasswordStrength/KMMPasswordStrengthView/Assets/flaticon.ttf"
