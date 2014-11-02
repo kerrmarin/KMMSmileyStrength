@@ -13,7 +13,6 @@
 		573428FA1A017F8A007CBC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573428F81A017F8A007CBC28 /* Main.storyboard */; };
 		573428FC1A017F8A007CBC28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573428FB1A017F8A007CBC28 /* Images.xcassets */; };
 		573428FF1A017F8A007CBC28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573428FD1A017F8A007CBC28 /* LaunchScreen.xib */; };
-		5734290B1A017F8A007CBC28 /* KMMPasswordStrengthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5734290A1A017F8A007CBC28 /* KMMPasswordStrengthTests.m */; };
 		573429171A018555007CBC28 /* KMMSmileyStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 573429161A018555007CBC28 /* KMMSmileyStrength.m */; };
 		573429211A018CDD007CBC28 /* UIFont+kmm_smileyFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 573429201A018CDD007CBC28 /* UIFont+kmm_smileyFont.m */; };
 		573429231A0195BE007CBC28 /* flaticon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573429221A0195BE007CBC28 /* flaticon.ttf */; };
@@ -44,8 +43,6 @@
 		573428FB1A017F8A007CBC28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		573428FE1A017F8A007CBC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		573429041A017F8A007CBC28 /* KMMPasswordStrengthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMMPasswordStrengthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		573429091A017F8A007CBC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5734290A1A017F8A007CBC28 /* KMMPasswordStrengthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMMPasswordStrengthTests.m; sourceTree = "<group>"; };
 		573429151A018555007CBC28 /* KMMSmileyStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMMSmileyStrength.h; path = KMMPasswordStrengthView/KMMSmileyStrength.h; sourceTree = "<group>"; };
 		573429161A018555007CBC28 /* KMMSmileyStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMMSmileyStrength.m; path = KMMPasswordStrengthView/KMMSmileyStrength.m; sourceTree = "<group>"; };
 		5734291F1A018CDD007CBC28 /* UIFont+kmm_smileyFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+kmm_smileyFont.h"; path = "KMMPasswordStrengthView/UIFont+kmm_smileyFont.h"; sourceTree = "<group>"; };
@@ -80,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				573428ED1A017F89007CBC28 /* KMMPasswordStrength */,
-				573429071A017F8A007CBC28 /* KMMPasswordStrengthTests */,
 				573428EC1A017F89007CBC28 /* Products */,
 				A09363AF67A0CE77AC46D755 /* Pods */,
 				91E302150B9C8F72694BED82 /* Frameworks */,
@@ -117,23 +113,6 @@
 			children = (
 				573428EF1A017F89007CBC28 /* Info.plist */,
 				573428F01A017F8A007CBC28 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		573429071A017F8A007CBC28 /* KMMPasswordStrengthTests */ = {
-			isa = PBXGroup;
-			children = (
-				5734290A1A017F8A007CBC28 /* KMMPasswordStrengthTests.m */,
-				573429081A017F8A007CBC28 /* Supporting Files */,
-			);
-			path = KMMPasswordStrengthTests;
-			sourceTree = "<group>";
-		};
-		573429081A017F8A007CBC28 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				573429091A017F8A007CBC28 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -327,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5734290B1A017F8A007CBC28 /* KMMPasswordStrengthTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

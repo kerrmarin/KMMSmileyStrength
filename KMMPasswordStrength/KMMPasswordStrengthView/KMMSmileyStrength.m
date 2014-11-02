@@ -21,13 +21,11 @@
 
 @implementation KMMSmileyStrength
 
--(id)init
-{
+-(id)init {
     return [self initWithFrame:CGRectMake(0.0, 0.0, 30.0, 30.0)];
 }
 
--(id)initWithFrame:(CGRect)frame
-{
+-(id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self setup];
@@ -40,15 +38,15 @@
  * that will have the password strength text
  */
 -(void)setup {
-    self.zxcvbn = [[DBZxcvbn alloc] init];
-    self.textLabel = [[UILabel alloc] initWithFrame:self.bounds];
+    _zxcvbn = [[DBZxcvbn alloc] init];
+    _textLabel = [[UILabel alloc] initWithFrame:self.bounds];
     
     //Set default values for font, size and text colour
-    self.textLabel.font = [UIFont kmm_flatIconFont];
-    self.textLabel.textColor = [UIColor blackColor];
-    self.textLabel.textAlignment = NSTextAlignmentCenter;
+    _textLabel.font = [UIFont kmm_flatIconFont];
+    _textLabel.textColor = [UIColor blackColor];
+    _textLabel.textAlignment = NSTextAlignmentCenter;
     
-    [self addSubview: self.textLabel];
+    [self addSubview: _textLabel];
 }
 
 /**
