@@ -20,16 +20,6 @@
 		80376C1E15887B5D635F84A4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 295CBF49C8D9C68ED9C7A5A6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		573429051A017F8A007CBC28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 573428E31A017F89007CBC28 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 573428EA1A017F89007CBC28;
-			remoteInfo = KMMPasswordStrength;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		295CBF49C8D9C68ED9C7A5A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		573428EB1A017F89007CBC28 /* KMMPasswordStrength.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMMPasswordStrength.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +32,6 @@
 		573428F91A017F8A007CBC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		573428FB1A017F8A007CBC28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		573428FE1A017F8A007CBC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		573429041A017F8A007CBC28 /* KMMPasswordStrengthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMMPasswordStrengthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573429151A018555007CBC28 /* KMMSmileyStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMMSmileyStrength.h; path = KMMPasswordStrengthView/KMMSmileyStrength.h; sourceTree = "<group>"; };
 		573429161A018555007CBC28 /* KMMSmileyStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMMSmileyStrength.m; path = KMMPasswordStrengthView/KMMSmileyStrength.m; sourceTree = "<group>"; };
 		5734291F1A018CDD007CBC28 /* UIFont+kmm_smileyFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+kmm_smileyFont.h"; path = "KMMPasswordStrengthView/UIFont+kmm_smileyFont.h"; sourceTree = "<group>"; };
@@ -63,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		573429011A017F8A007CBC28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				573428EB1A017F89007CBC28 /* KMMPasswordStrength.app */,
-				573429041A017F8A007CBC28 /* KMMPasswordStrengthTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,24 +160,6 @@
 			productReference = 573428EB1A017F89007CBC28 /* KMMPasswordStrength.app */;
 			productType = "com.apple.product-type.application";
 		};
-		573429031A017F8A007CBC28 /* KMMPasswordStrengthTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 573429111A017F8A007CBC28 /* Build configuration list for PBXNativeTarget "KMMPasswordStrengthTests" */;
-			buildPhases = (
-				573429001A017F8A007CBC28 /* Sources */,
-				573429011A017F8A007CBC28 /* Frameworks */,
-				573429021A017F8A007CBC28 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				573429061A017F8A007CBC28 /* PBXTargetDependency */,
-			);
-			name = KMMPasswordStrengthTests;
-			productName = KMMPasswordStrengthTests;
-			productReference = 573429041A017F8A007CBC28 /* KMMPasswordStrengthTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,10 +171,6 @@
 				TargetAttributes = {
 					573428EA1A017F89007CBC28 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					573429031A017F8A007CBC28 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 573428EA1A017F89007CBC28;
 					};
 				};
 			};
@@ -229,7 +188,6 @@
 			projectRoot = "";
 			targets = (
 				573428EA1A017F89007CBC28 /* KMMPasswordStrength */,
-				573429031A017F8A007CBC28 /* KMMPasswordStrengthTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +201,6 @@
 				573428FA1A017F8A007CBC28 /* Main.storyboard in Resources */,
 				573428FF1A017F8A007CBC28 /* LaunchScreen.xib in Resources */,
 				573428FC1A017F8A007CBC28 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		573429021A017F8A007CBC28 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,22 +253,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		573429001A017F8A007CBC28 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		573429061A017F8A007CBC28 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 573428EA1A017F89007CBC28 /* KMMPasswordStrength */;
-			targetProxy = 573429051A017F8A007CBC28 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		573428F81A017F8A007CBC28 /* Main.storyboard */ = {
@@ -439,40 +375,6 @@
 			};
 			name = Release;
 		};
-		573429121A017F8A007CBC28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = KMMPasswordStrengthTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMMPasswordStrength.app/KMMPasswordStrength";
-			};
-			name = Debug;
-		};
-		573429131A017F8A007CBC28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = KMMPasswordStrengthTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMMPasswordStrength.app/KMMPasswordStrength";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,15 +392,6 @@
 			buildConfigurations = (
 				5734290F1A017F8A007CBC28 /* Debug */,
 				573429101A017F8A007CBC28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		573429111A017F8A007CBC28 /* Build configuration list for PBXNativeTarget "KMMPasswordStrengthTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				573429121A017F8A007CBC28 /* Debug */,
-				573429131A017F8A007CBC28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
