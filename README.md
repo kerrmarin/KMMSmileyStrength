@@ -24,7 +24,7 @@ Then add `flaticon.ttf` to the project's info.plist under `Fonts provided by app
 
 ## Requirements
 
-- iOS 5.0 and greater
+- iOS 7.0 and greater
 - ARC
 
 ## Examples
