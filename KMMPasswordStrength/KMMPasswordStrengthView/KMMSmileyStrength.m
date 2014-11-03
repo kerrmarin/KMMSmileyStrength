@@ -67,9 +67,13 @@
  *         to improve security (common strings to add are usernames, emails, etc)
  */
 -(void)evaluatePassword:(NSString *)password userInputs:(NSArray *)userInputs {
-    DBResult *result = [self.zxcvbn passwordStrength:password
-                                          userInputs:userInputs];
-    self.textLabel.text = [NSString kmm_smileyForFlatIconFontEmotion:result.score];
+    dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+        DBResult *result = [self.zxcvbn passwordStrength:password
+                                              userInputs:userInputs];
+        dispatch_async(dispatch_get_main_queue(), ^(void){
+            self.textLabel.text = [NSString kmm_smileyForFlatIconFontEmotion:result.score];
+        });
+    });
 }
 
 /**
