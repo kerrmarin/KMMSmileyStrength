@@ -15,7 +15,7 @@ A password strength view that uses smiley faces to depict the strength of a pass
 
 ## Installation
 
-### Cocoapods (Recommended)
+### CocoaPods (Recommended)
 
 1. Add `pod 'KMMSmileyStrength'` to your Podfile.
 2. Run `pod install`
